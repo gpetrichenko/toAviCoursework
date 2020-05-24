@@ -3,7 +3,7 @@
       <div class="featured__item">
         <router-link :to="{name:'product', params:{id:product.id}}">
           <!-- <div class="featured__item__pic set-bg" data-setbg="https://i.imgur.com/F1DemUm.jpg"> -->
-            <img  class="featured__item__pic" :src="cardImg">
+            <img  class="featured__item__pic" :src="cardImg"> 
           <div class="featured__item__text">
               <h6><a href="#">{{product.name}}</a></h6>
               <h5>{{product.sell_price | currency}}</h5>
